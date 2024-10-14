@@ -1,0 +1,121 @@
+.bodey{
+    background-color: rgb(221, 214, 216);
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+#nav{
+    background-color: rgb(165, 158, 161);
+}
+#texto{
+    color: black;
+    text-decoration: none;
+}
+.star{
+    width: 40%;
+    margin-left: 1%;
+}
+#botones{
+    margin-top: 2%;
+    text-align: center;
+}
+#botoncito{
+    background-color: rgb(221, 214, 216);
+    border: solid;
+    border-color: rgb(165, 158, 161);
+    padding: 1%;
+    border-radius: 15%;
+    cursor: pointer;
+}
+.active{
+    background-color: rgb(165, 158, 161) !important;
+    color: rgb(221, 214, 216);
+}
+.card.hide {
+    display: none !important;
+} 
+#carr{
+    display: inline-block;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.171);
+    transition: 0.3s;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.589);
+}
+.container{
+        background-color: rgb(204, 204, 204);
+        padding: 2%;
+        text-align: center;
+        font-size: large;
+        object-fit: cover;
+}
+.cartas{
+    text-align: center;
+    margin-left: 15%;
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+}
+.titl{
+    background-color: rgb(165, 158, 161);
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    height: 35%;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    display: table;
+    padding-top: 1%;
+}
+.personalizado{
+    margin: auto;
+    text-align: center;
+    background-color: rgb(165, 158, 161);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 50%;
+    font-size: larger;
+}
+.nombre,
+.email{
+    border: none;
+    background-color: rgb(221, 214, 216);
+    width: 35%;
+    height: 25px;
+    font-size: medium;
+    margin-bottom: 1%;
+}
+.desc{
+    border: none;
+    background-color: rgb(221, 214, 216);
+    width: 35%;
+    height: 75px;
+    font-size: medium;
+    margin-bottom: 1%;
+}
+.files{
+    width: 178px;
+    margin-top: 2%;
+    border: none;
+    color: transparent;
+    margin-bottom: 3%;
+}
+#enviar{
+    text-decoration: none;
+    border: none;
+    background-color: rgb(221, 214, 216);
+}
+#enviar:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.589);
+}
+.fotty{
+    background-color: rgb(165, 158, 161);
+    margin-top: 2%;
+    text-align: center;
+    border: none;
+}

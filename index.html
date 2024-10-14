@@ -1,11 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap" rel="stylesheet">
+    <title>MVPi</title>
 </head>
-<body>
-    
+
+<body class="bodey">
+
+    <div>
+        <nav id="nav" class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img class="star" src="img/estrellita.webp" alt="">
+                </a>
+                <button id="botomm" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a id="texto" class="nav-link active" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="texto" class="nav-link" href="#personalizado">Personalizados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="texto" class="nav-link" href="#fotty">Redes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="botones" class="botonn">
+        <button id="botoncito"  data-name="todos">Todo</button>
+        <button id="botoncito" data-name="amigurumi">Amigurumis</button>
+        <button id="botoncito" data-name="bolsos">Bolsos</button>
+        <button id="botoncito" data-name="ropa">Ropa</button>
+    </div>
+
+
+    <div class="tejidos" id="productos">
+        <div class="cartas">
+
+            <div class="card" id="carr" data-name="amigurumi">
+                <a href="totoro.html">
+                    <img src="img/totoroP.jpeg" alt="Llavero de totoro" style="width: 100%;">
+                </a>
+                <div class="container">
+                    <p>Llavero de totoro</p>
+                </div>
+            </div>
+
+            <div class="card" id="carr" data-name="amigurumi">
+                <a href="charmander.html">
+                    <img src="img/charmanderP.jpeg" alt="Amigurumi de charmander" style="width: 100%;">
+                </a>
+                <div class="container">
+                    <p>Amigurumi de charmander</p>
+                </div>
+            </div>
+            <div class="card" id="carr" data-name="amigurumi">
+                <a href="cinnamoroll.html">
+                    <img src="img/cinnamorollP.jpeg" alt="Amigurumi de cinnamoroll" style="width: 100%;">
+                </a>
+                <div class="container">
+                    <p>Amigurumi de cinnamoroll</p>
+                </div>
+            </div>
+            <div class="card" id="carr" data-name="bolsos">
+                <a href="bolsopetit.html">
+                    <img src="img/bolsoStP.jpeg" alt="mini bolso con una estrella" style="width: 100%;">
+                </a>
+                <div class="container">
+                    <p>Mini bolso con una estrella</p>
+                </div>
+            </div>
+            <div class="card" id="carr" data-name="bolsos">
+                <a href="bolsostar.html">
+                    <img src="img/bolsoStarP.jpeg" alt="bolso de estrella" style="width: 100%;">
+                </a>
+                <div class="container">
+                    <p>Bolso de estrella</p>
+                </div>
+            </div>
+            <div class="card" id="carr" data-name="ropa">
+                <a href="manga.html">
+                    <img src="img/mangasP.jpeg" alt="mangas" style="width: 100%;">
+                </a>
+                <div class="container">
+                    <p>Mangas</p>
+                </div>
+            </div>
+            <div class="card" id="carr" data-name="amigurumi">
+                <a href="creeper.html">
+                    <img src="img/creeperP.jpeg" alt="amigurumi de creeper" style="width: 100%;">
+                </a>
+                <div class="container">
+                    <p>Amigurumi de creeper</p>
+                </div>
+            </div>
+            <div class="card" id="carr" data-name="amigurumi">
+                <a href="pochita.html">
+                    <img src="img/pochitaP.jpeg" alt="amigurumi de pochita" style="width: 100%;">
+                </a>
+                <div class="container">
+                    <p>Amigurumi de pochita</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="titl">
+        <h5>Pedidos personalizados</h5>
+    </div>
+    <div class="personalizado" id="personalizado">
+        <form action="https://formsubmit.co/malenavignola261205@gmail.com.com" method="post">
+            <div class="sug">
+                <label>Nombre y apellido</label> <br>
+                <input type="text" name="nombreYApellido" class="nombre">
+                <br>
+                <label>E-mail</label><br>
+                <input type="email" name="Email" class="email">
+                <br>
+                <label>Descripcion de la idea personalizada</label><br>
+                <textarea name="desc" class="desc"></textarea>
+                <br>
+                <label>Imagen del pedido(opcional)</label><br>
+                <input type="file" name="imagen" class="files" id="files">
+                <br>
+                <input type="submit" name="enviar" id="enviar">
+            </div>
+        </form>
+    </div>
+
+    <footer class="fotty" id="fotty">
+        <div>
+            <a href="https://www.instagram.com/malemvpi_/" target="_blank"><img src="img/igIconW.png" alt="" style="width: 5%; padding: 1%;"></a>
+            <a href="https://www.facebook.com/malena.vignola.1/" target="_blank"><img src="img/faceIconW.png" alt="" style="width: 5%; padding: 1%;"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
